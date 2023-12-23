@@ -1,0 +1,53 @@
+*{
+    text-decoration: none!important;
+    list-style: none;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: "calibri";
+}
+
+video{
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+.form{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .6);
+    padding: 100px 30px;
+}
+
+.form h2{
+    color: #fff;
+}
+
+.form img{
+    width: 10rem;
+    height: 10rem;
+}
+.form input{
+    width: 400px;
+    height: 40px;
+}
+
+.form button{
+    width: 200px;
+}
+
+@media(max-width:978px){
+    .form{
+        padding: 10px 15px!important;
+    }
+
+    .form img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
